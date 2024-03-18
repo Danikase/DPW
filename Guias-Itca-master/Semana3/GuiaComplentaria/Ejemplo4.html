@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container"> 
+        <form>
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nombre">
+            </div>
+            
+            <div class="mb-3">
+                <label for="edad" class="form-label">Edad</label>
+                <input type="number" class="form-control" id="edad" min="0" step="1">
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Correo ELectronico</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+              
+            <div class="mb-3">
+                <label for="nacimiento" class="form-label">Fecha de nacimiento</label>
+                <input type="date" class="form-control" id="nacimiento">
+            </div>
+              
+            <div class="mb-3">
+                <label for="color" class="form-label">Color favorito</label>
+                <input type="color" class="form-control" id="color">
+            </div>
+
+            <div class="mb-3">
+                <label for="formFile" class="form-label">Cargar Archivo</label>
+                <input class="form-control" type="file" id="formFile">
+            </div>
+
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Suscribirse al boletin</label>
+            </div>
+
+            <div class="d-grid gap-2 d-md-block">
+                <button class="form-control" type="submit">Enviar</button>
+                <button class="form-control" type="reset">Restablecer</button>
+              </div>
+          </form>
+    </div>
+</body>
+</html>
