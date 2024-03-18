@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    
+        <form name="input" action="html_form_action.asp" method="get">
+            
+            <!--Campo de texto-->
+            Primer Nombre: <input type="text" name="pnombre"><br>           
+            Apellido <input type="text" nanme="Apellido"><br>           
+            <!--Campo de password-->
+            Password <input type="password" name="pws"><br>          
+                
+             <!--Radio Buttons-->
+            <h3>Seleccione su bebida</h3>
+            <input type="radio" name="bebida1" value="Coca-Cola">Coca Cola<br>
+            <input type="radio" name="bebida2" value="Coca-Cola">Fanta<br>
+            <input type="radio" name="bebida3" value="Horchata">7up<br>
+            <input type="radio" name="bebida4" value="Caf&eacute;">Caf&eacute;<br>
+    
+             <!--Checkboxes-->
+            <h3>Marque cuales son sus medios de transporte</h3>
+            <input type="checkbox" name="mTransporte" value="bicicleta">Yo viajo en bicicleta<br>
+            <input type="checkbox" name="mTransporte" value="bus">Yo uilizo el bus<br>
+            <input type="checkbox" name="mTransporte" value="carro">Yo tengo carro<br>
+            <input type="checkbox" name="mTransporte" value="aire">A mi el aire me lleva XD<br>
+
+             <!--Submit button-->
+            Username: <input type="text" name="user">
+            <input type="submit" value="submit">
+
+             <!--Combo boxes-->
+            <h3>Seleccione su marca favorita de carros</h3>
+             <select name="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+                <option value="honda">Honda</option>
+                <option value="toyota">Toyota</option>
+                <option value="kia">Kia</option>
+            </select>
+
+            <h3>Seleccione su comida tipica predilecta</h3>
+             <select name="comidas">
+                <option value="pupusas">Pupusas</option>
+                <option value="tamales">Tamales</option>
+                <option value="pasteles" selected="selected">Pastelito fritos</option>
+                <option value="yuca">Yuca frita</option>
+            </select>
+
+             <!--TextArea-->
+             <p>
+                Utilice la siguiente &aacute;rea de texto para escribir la historia m&aacute;s 
+                fant&aacute;stica que haya vivido
+             </p>
+
+             <textarea rows="10" cols="30">
+                &nbsp;
+             </textarea><br>
+
+              <!--Buttons-->
+              <input type="button" value="Hola Mundo!">
+
+        </form>
+
+</body>
+</html>
