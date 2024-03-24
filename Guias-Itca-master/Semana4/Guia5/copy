@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-   
-    <h2 style="text-align: center; color: #438930;">
-        Establecer una Cuenta
-   </h2>
-
-    <div class="container">
+<div class="container">
         <form>            
 
             <div style="padding-top: 10px;">
@@ -62,19 +49,10 @@
                 <input type="number" class="form-control" id="cell">
             </div>
 
-            <div style="padding: 5px;">
+            <div style="padding: 5x;">
                 <label for="cell2" class="form-label">Número de Télefono Secundario</label>
                 <input type="number" class="form-control" id="cell2">
             </div>
-
-            <div style="padding: 5px;">
-                <label for="cell2" class="form-label">Número de Télefono Secundario</label>
-                <input type="number" class="form-control" id="cell2">
-            </div>
-            
         
         </form>  
-    </div>   
-
-</body>
-</html>
+    </div>
