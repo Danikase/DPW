@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 1 y 2</title>
+</head>
+<body>
+  
+  <fieldset>
+    <form action="/action_page.php">
+        <div class="mb-3" style="padding-bottom: 5px;">
+            <label for="fname" class="form-label">First name:</label>
+            <input type="text" class="form-control" id="fname" name="fname" value="Mickey">
+        </div>
+        <div class="mb-3" style="padding-bottom: 5px;">
+            <label for="lname" class="form-label">Last name:</label>
+            <input type="text" class="form-control" id="lname" name="lname" value="Mouse">
+        </div>
+        <input type="submit" value="Enviar datos" class="btn btn-primary">
+    </form>
+</fieldset>
+
+
+<fieldset>
+  <legend>Información Personal</legend>
+  <form action="/action_page.php">
+      <div class="mb-3" style="padding-bottom: 5px;">
+          <label for="cname">Nombre:</label>
+          <input type="text" id="cname" name="cname" class="form-control">
+      </div>
+      <div class="mb-3" style="padding-bottom: 5px;">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" class="form-control">
+      </div>
+      <div class="mb-3" style="padding-bottom: 5px;">
+          <label for="nacimiento">Fecha de nacimiento:</label>
+          <input type="text" id="nacimiento" name="nacimiento" class="form-control">
+      </div>
+  </form>
+</fieldset>
+
+
+</body>
+</html>

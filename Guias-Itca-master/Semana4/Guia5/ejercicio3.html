@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Establecer Cuenta</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+    </head>
+
+    <body>
+        
+        <div class="container mt-3" style="margin-left: 0; padding-left: 0;">
+
+            <h2 style="text-align: center; color: #438930;">
+                Establecer una Cuenta
+           </h2>
+
+            <form method="post">
+                <div class="mb-3 row">
+                    <label for="username" class="col-sm-2 col-form-label text-end">Cree un Nombre de Usuario:</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" id="username">
+                    </div>
+                    <div class="col-sm-6">
+                        <p><strong style="color: red;">Nota:</strong>Los nombres de Usuario son importantes...<a href="https://playvalorant.com/es-mx/">Haga clic aqui para saber sobre nosotros</a></p>
+                    </div>
+                </div>
+                
+                <div class="mb-3 row">
+                    <label for="inputPassword" class="col-sm-2 col-form-label text-end">Cree una contraseña:</label>
+                    <div class="col-sm-4">
+                      <input type="password" class="form-control" id="inputPassword">
+                    </div>
+                </div>
+                
+                <div class="mb-5 row">
+                    <label for="confirmpassword" class="col-sm-2 col-form-label text-end">Reingrese su contraseña:</label>
+                    <div class="col-sm-4">
+                      <input type="password" class="form-control" id="confirmpassword">
+                    </div>
+                </div>
+                
+                <div class="mb-3 row">
+                    <label class="col-sm-2 col-form-label text-end" for="clasificacion ">Saludo:</label>
+                    <div class="col-sm-1">
+                        <select class="form-control" id="clasificacion" name="clasificacion" required>
+                            <option>Sr.</option>
+                            <option>Srta.</option>   
+                        </select>
+                    </div>     
+                </div>
+
+                <div class="mb-3 row">
+                    <label for="name" class="col-sm-2 col-form-label text-end">Nombre:</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" id="name">
+                    </div>
+                </div>
+
+                <div class="mb-5 row">
+                    <label for="lname" class="col-sm-2 col-form-label text-end">Apellido:</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" id="lname">
+                    </div>
+                </div>
+
+                <div class="mb-3 row">
+                    <label for="mail" class="col-sm-2 col-form-label text-end">Correo Electronico de preferencia:</label>
+                    <div class="col-sm-2">
+                      <input type="email" class="form-control" id="mail">
+                    </div>
+                </div>
+
+                <div class="mb-5 row">
+                    <label for="confirmmail" class="col-sm-2 col-form-label text-end">Reingrese Correo Electronico de preferencia:</label>
+                    <div class="col-sm-2">
+                      <input type="email" class="form-control" id="confirmmail">
+                    </div>
+                </div>
+
+                <div class="mb-3 row">
+                    <label for="firstname" class="col-sm-2 col-form-label text-end">Número de telefono Principal:</label>
+                    <div class="col-sm-2">
+                        <input type="text" class="form-control" id="firstname">
+                    </div>
+                    <label for="ext" class="col-sm-1 col-form-label text-end">Ext.</label>
+                    <div class="col-sm-1">
+                        <input type="text" class="form-control" id="ext">
+                    </div>
+                    <label class="col-sm-1 col-form-label text-end" for="clasificacion">Tipo</label>
+                    <div class="col-sm-2">
+                        <select class="form-select" id="tipo">
+                            <option value="1">Celular</option>
+                            <option value="2">Residencia</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="mt-5 row">
+                    <label for="secondnumber" class="col-sm-2 col-form-label text-end">Número de telefono Secundario:</label>
+                    <div class="col-sm-2">
+                        <input type="number" class="form-control" id="secondnumber">
+                    </div>
+                    <label for="ext" class="col-sm-1 col-form-label text-end">Ext.</label>
+                    <div class="col-sm-1">
+                        <input type="text" class="form-control" id="ext">
+                    </div>
+                    <label class="col-sm-1 col-form-label text-end" for="clasificacion">Tipo:</label>
+                    <div class="col-sm-2">
+                        <select class="form-select" id="tipo">
+                            <option value="1">Celular</option>
+                            <option value="2">Residencia</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="mt-5 mb-3 row">
+                    <label for="Direccion" class="col-sm-2 col-form-label text-end">Direccion Postal:</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" id="Direccion">
+                    </div>
+                </div>
+                
+                <div class="mb-3 row">
+                    <label for="segundaDireccion" class="col-sm-2 col-form-label text-end">segunda Direccion Postal (opcional):</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" id="segundaDireccion">
+                    </div>
+                </div>
+                
+                <div class="mb-3 row">
+                    <label for="ciudad" class="col-sm-2 col-form-label text-end">Ciudad:</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" id="ciudad">
+                    </div>
+                </div>
+
+                <div class="mb-3 row">
+                    <label for="state" class="col-sm-2 col-form-label text-end">Estado/Provincia:</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" id="state">
+                    </div>
+                </div>
+
+                <div class="mb-3 row">
+                    <label for="postalcode" class="col-sm-2 col-form-label text-end">Codigo Postal:</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" id="postalcode">
+                    </div>
+                </div>
+
+            </form>
+        </div>          
+        
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

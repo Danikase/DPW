@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Creacion de plantilla</title>
+        <style>
+            /* colocamos mangen 0 al body */
+            body {
+                margin: 0;
+            }
+            /* creamos el estilo para el encabezado(header) */
+            .header {
+                background-color: #f1f1f1;
+                padding: 20px;
+                text-align: center;
+            }
+            /* fin del estilo encabezado */
+
+            /* inicio del estilo para el menu */
+            * {
+                box-sizing: border-box;
+            }
+            /* estilo para la base del menu */
+            .topnav {
+                overflow: hidden;
+                background-color: #333;
+            }
+            /* estilo para los enlaces del menu */
+            .topnav a {
+                float: left;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            /* estilo para que el menu cambie cuando
+               pasa el mouse sobre el enlace
+            */ 
+            .topnav a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+            /*fin del estilo del menu*/
+
+            /* definimos el estilo para la columnas
+            aqui creamos 3 columnas iguales una a la par de la otra
+            */
+            .column {
+                float: left;
+                padding: 10px;
+            }
+            /* columna derecha e izquierda */
+            .column.side {
+                width: 15%;
+            }
+            /* columna central */
+            .column.middle {
+                width: 70%;
+            }
+            /* aqui le decimos que el contenido que sigue deje de ser flotante */
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            } 
+
+            /* Plantilla responsiva -
+            cuando el ancho de la pantalla es menor a 600 pixeles hacemos que de 3
+            columnas pase a ser solo una cada contenido es apilado
+            */
+            @media screen and (max-width:600px) {
+                .column {
+                    width: 100%;
+                }
+            }
+            /*fin css cuerpo*/
+
+            /* inicio estilo pie de pagina */
+            .footer {
+                background-color: #f1f1f1;
+                padding: 10px;
+                text-align: center;
+            }
+            /*fin pie de pagina */
+
+        </style>
+    </head>
+    <body>
+        <!--definimos el area del encabezado//-->
+        <div class="header">
+            <h1>Practica CSS</h1>
+        </div>
+        <!--fin del encabezado//-->
+
+        <!--crear el munu//-->
+        <div class="topnav">
+            <a href="#">INICIO</a>
+            <a href="#">MISION</a>
+            <a href="#">VISION</a>
+        </div>
+        <!--fin del menu//-->
+
+        <!--inicio de la creacion del cuerpo de la pagina//-->
+        <div class="row">
+            <div class="column side">
+                <h2>Columna 1</h2>
+                <p>texto aleatorio Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Eum vel omnis sapiente optio non, beatae, illo repellendus autem accusantium
+                      ab quia, ipsum eos quo quod dolor fugiat? Dolores, totam veritatis.</p>
+            </div>
+
+            <div class="column middle">
+                <h2>Columna 2</h2>
+                <p2>texto aleatorio Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Eum aperiam quasi officiis deleniti omnis alias enim eaque cum quibusdam
+                      dolorem est ratione rerum eveniet aspernatur, nesciunt ex asperiores necessitatibus! Ipsum?</p2>
+            </div>
+
+            <div class="column side">
+                <h2>Columna 3</h2>
+                <p>texto aleatorio Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                     Dignissimos alias ab ratione dolores, officiis eos labore? Suscipit, nulla
+                      veniam ipsam libero corrupti doloremque! Praesentium doloremque corporis, quod deleniti aliquam iste?</p>
+            </div>
+        </div>
+        <!--fin de la creacion del cuerpo//-->
+
+        <!--Inicio del pie de pagina//-->
+        <div class="footer">
+            <p>Agregar aqui el contenido del pie de pagina</p>
+        </div>
+        <!--fin del pie de pagina//-->
+    </body>
+</html>

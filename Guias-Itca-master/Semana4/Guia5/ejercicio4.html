@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Informacion Personal</title>
+        <style>
+
+            .horizontal-line {
+                border-bottom: 1px solid black;
+                width: 800%;
+                display: block;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <fieldset>
+            <legend>Informacion Personal</legend>
+            <form>
+                
+                <div class="mb-3 row">
+                    <label for="Nombre" class="col-sm-2 col-form-label">Nombre:</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="Nombre">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="Apellido" class="col-sm-2 col-form-label">Apellido:</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" id="Apellido">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="password" class="col-sm-2 col-form-label">Contraseña:</label>
+                    <div class="col-sm-4">
+                        <input type="password" class="form-control" id="password">
+                    </div>
+                </div>
+                
+                Sexo:
+                <input type="radio" name="Sexo" masculino="masculino" value="Masculino">Masculino
+                <input type="radio" name="Sexo" Femenino="Femenino" value="Femenino">Femenino
+
+                <br>
+                
+                Fotografía:
+                <select name="Selecciona un archivo">
+                    <option value="Seleccionar archivo">Selecciona un archivo</option>
+                    <option value="Foto 1">Foto 1</option>
+                    <option value="Foto 2">Foto 2</option>
+                </select>
+                
+                No se ha seleccionado ningún archivo
+                
+                <div class="horizontal-line"></div>
+                
+                <h4>Intere</h4>
+                <input type="checkbox" id="deportes" name="deportes" value="Deportes">
+                <label for="deportes"> Deportes</label><br>
+                <input type="checkbox" id="peliculas" name="peliculas" value="Peliculas">
+                <label for="peliculas"> Películas</label><br>
+                <input type="checkbox" id="Viaje" name="Viaje" value="Viaje">
+                <label for="Viajes"> Viajes</label><br>
+                <input type="checkbox" id="" name="Arte" value="Viaje">
+                <label for="peliculas"> Arte</label><br>
+                <input type="checkbox" id="" name="Autos" value="Autos">
+                <label for="peliculas"> Autos</label>"
+            
+            </form>
+            
+            <input type="button" value="Reestablecer formulario"> <input type="button" value="Enviar formulario"><br>
+            
+        </fieldset>
+        
+    </body>
+</html>
