@@ -5,4 +5,4 @@ hours = int(input("Ingrese horas trabajadas: "))
 
 total = salary * hours
 
-print("Su total seria de: $", total)
+print("Su total seria de: $",total)
