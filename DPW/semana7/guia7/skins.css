@@ -1,6 +1,14 @@
+body {
+    background-image: url('clove.jpg');
+    background-size: cover;
+}
+
 .menu-bar {
     background-color: #33333300;
     /* Background color of the menu bar */
+    position: relative;
+    z-index: 1000;
+    /* Ajusta el z-index para estar por encima de otros elementos */
 }
 
 .menu-bar ul {
@@ -13,6 +21,8 @@
     display: inline-block;
     margin-right: 20px;
     /* Adjust spacing between menu items */
+    position: relative;
+    /* Añade posición relativa para el posicionamiento del menú desplegable */
 }
 
 .menu-bar ul li:last-child {
@@ -24,7 +34,7 @@
     display: inline-block;
     padding: 10px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(247, 247, 247);
     /* Text color of the menu items */
 }
 
@@ -33,6 +43,43 @@
     /* Background color on hover */
 }
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    min-width: 160px;
+    white-space: nowrap;
+    /* Evita que los elementos del menú se dividan en múltiples líneas */
+}
+
+.dropdown-content a {
+    display: inline-block;
+    /* Muestra los elementos en línea */
+    padding: 12px 16px;
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid #555;
+    /* Agrega separadores entre elementos */
+}
+
+.dropdown-content a:last-child {
+    border-right: none;
+    /* Quita el borde derecho del último elemento */
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    position: absolute;
+    top: 100%;
+    /* Cambia esto para que el dropdown se muestre debajo del elemento padre */
+    left: 0;
+}
 .menu-bar ul li img {
     height: 50px;
     /* Adjust the height of the image */
