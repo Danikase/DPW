@@ -1,70 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tio Rito</title>
-    <link rel="stylesheet" href="ejercicio.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi página web</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header>
+    <h1>Valorant personajes Lore</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Acerca de</a></li>
+      <li><a href="#">Servicios</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </nav>
 
-    <div id="agrupar">
-        <header id="cabecera">
-            <h1>Rese&ntilde;a de Kirby and the forgotten land</h1> 
-        </header>
-        <nav id="menu">
-            <input type="checkbox" id="menu">
-            <label for="menu"> ☰ </label>
-            <ul>
-              <li>Sinopsis</li>
-              <li>Rese&ntilde;a</li>
-              <li></li>
-              <li></li>
-            </ul>
-          </nav>
-        <section id="seccion">
-            <article article>
-                <header>
-                    <hgroup>
-                        <h1>Título del mensaje uno</h1>
-                        <h2>Subtítulo del mensaje uno</h2>
-                    </hgroup>
-                    <time datetime="2011-12-10" pubdate>publicado 10-12-2011 </time>
-                </header>
-        Este es el texto de mi primer mensaje 
-        <figure>
-            <img src="../hk.jpg">
-            <figcaption>
-                Esta es la imagen del primer mensaje 
-            </figcaption>
-        </figure>
-            <footer>
-                <p>comentarios (0)</p> 
-            </footer>
-        </article>
-        <article>
-            <header>
-                <hgroup>
-                    <h1>Título del mensaje dos</h1>
-                    <h2>Subtítulo del mensaje dos</h2>
-                </hgroup>
-                <time datetime="2011-12-15" pubdate>publicado 15-12-2011</time>
-            </header>
-            Este es el texto de mi segundo
-            mensaje 
-            <footer>
-                <p>comentarios (0)</p> 
-            </footer>
-        </article>
-        </section>
-        <aside id="columna">
-            blockquote>Mensaje número uno</blockquote>
-            blockquote>Mensaje número dos</blockquote>
-        </aside>
-        <footer id="pie">
-                Derechos Reservados &copy; 2010-2011 
-        </footer>
-    </div>
+  <main>
+    <section>
+      <h2>Viper</h2>
+      <p>Viper is a brilliant scientist coming from the United States. She is the second member of the VALORANT PROTOCOL, joining along with Brimstone, and is the second-in-command of the PROTOCOL.</p>
+      <img src="../viper.jpg" alt="Imagen 1">
+    </section>
     
+    <section>
+      <h2>Reyna</h2>
+      <p>Reyna is a Mexican Radiant, and the eleventh Agent in the PROTOCOL. She uses her Radiant abilities in battle, which are linked to harvesting the souls of the people she kills.</p>
+      <img src="../Reyna.jpg" alt="Imagen 2">
+    </section>
+    
+    <section>
+      <h2>Killjoy</h2>
+      <p>Killjoy is the 4th Agent to join the PROTOCOL. She is a young tech user and a genius, who uses various gadgets and bots of her own invention in combat. She is of German origin, however, only one of her parents being of German ancestry</p>
+      <img src="../Kj.jpg" alt="Imagen 3">
+    </section>
+    
+    <section>
+      <h2>Raze</h2>
+      <p>Raze has a personality reflecting her explosive and colorful playstyle, bringing happiness and positivity to the team. She often cracks bad jokes and lifts the team's spirit, all while obliterating the enemy with her kit. The rest of the team can find Raze annoying, however the way she lightens the atmosphere does not go unnoticed. Raze also loves to party and is always incorporating music and festival at any chance she can get.</p>
+      <img src="../raze.jpg" alt="Imagen 4">
+    </section>
+  </main>
+
+  <aside>
+    <h2>Formulario de contacto</h2>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre">
+      <br>
+      <label for="mensaje">experiencia en valorant:</label>
+      <textarea id="mensaje" name="mensaje"></textarea>
+      <input type="submit" value="Enviar">
+    </form>
+  </aside>
+
+  <footer>
+    <p>Derechos reservados &copy; 2024</p>
+  </footer>
 </body>
 </html>
