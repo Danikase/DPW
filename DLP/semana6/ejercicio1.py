@@ -1,11 +1,9 @@
-print("uso de enteros y operadores aritmeticos")
+print("Verificacion de mayoria de edad")
 
-num1 = int(input("ingrese un numero entero: "))
-num2 = int(input("ingrese un segundo numero entero: "))
+edad = int(input("Ingrese su edad: "))
 
-suma = num1 + num2
-resta = num1 - num2
-multi = num1 * num2
-div = num1 / num2
+if edad >= 18:
+    print("eres mayor de edad")
 
-print(f"la respuesta tu suma es {suma} mientras que si se resta es {resta} por otro lado si se multiplicara fuera {multi} y en la caso de la division seria {div}")
+else:
+    print("No eres mayor de edad")

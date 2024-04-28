@@ -1,23 +1,26 @@
-print()
+print("Determinación de la estación del año")
 
-x = int(input("Introduce la coordenada x del punto: "))
-y = int(input("Introduce la coordenada y del punto: "))
+print("1-enero",   "5-mayo",   "9-septiembre")
+print("2-febrero", "6-junio",  "10-octubre")
+print("3-marzo",   "7-julio",  "11-noviembre")
+print("4-abril",   "8-agosto", "12-diciembre")
 
+mes = int(input("Ingrese un numero del 1-12 que corresponde a cada mes: "))
 
-if x > 0:
-    if y > 0:
-        print("El punto está en el primer cuadrante.")
-    else:
-        print("El punto está en el cuarto cuadrante.")
+match mes:
 
-elif x < 0:
-    if y > 0:
-        print("El punto está en el segundo cuadrante.")
-    else:
-        print("El punto está en el tercer cuadrante.")
+    case mes if mes in [12,1,2]:
+        print("La estacion es invierno")
 
-else:
-    if y != 0:
-        print("El punto está sobre el eje y.")
-    else:
-        print("El punto está en el origen.")
+    case mes if mes in [3, 4, 5]:
+        print("La estación es primavera.")
+
+    case mes if mes in [6, 7, 8]:
+        print("La estación es verano.")
+
+    case mes if mes in [9, 10, 11]:
+        print("La estación es otoño.")
+
+    case _:
+        print("Número de mes inválido. Debe ser un número del 1 al 12.")
+         

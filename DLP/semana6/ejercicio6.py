@@ -1,7 +1,14 @@
-print("Calcula volumen de una esfera")
+print("Determinación del tipo de triángulo")
 
-radio = float(input("Escribe el radio: "))
+lado1 = int(input("Ingrese la longitud del primer lado: "))
+lado2 = int(input("Ingrese la longitud del segundo lado: "))
+lado3 = int(input("Ingrese la longitud del tercer lado: "))
 
-Vol = (4/3) * (3.1416) * pow(radio,3)
+if lado1 == lado2 == lado3:
+    print("El triángulo es equilátero.")
 
-print("es igual a: ",Vol)
+elif lado1 == lado2 or lado1 == lado3 or lado2 == lado3:
+    print("El triángulo es isósceles.")
+    
+else:
+    print("El triángulo es escaleno.")

@@ -1,8 +1,9 @@
-print("Elevacion de potencias")
+print("Determinación de la paridad de un número")
 
-X = int(input("Ingrese un valor entero: "))
-Y = int(input("Ingrese un valor entero: "))
+num1 = int(input("Ingrese un numero: "))
 
-R = X**Y 
+if num1 % 2 == 0:
+    print("El número es par")
 
-print("Su respuesta es de: ",R)
+else:
+    print("El número es impar")

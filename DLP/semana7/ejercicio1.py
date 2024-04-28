@@ -1,9 +1,26 @@
-print("Verificacion de mayoria de edad")
+print("calculadora de operaciones basicas")
 
-edad = int(input("Ingrese su edad: "))
+num1 = int(input("ingrese un numero: "))
+num2 = int(input("ingrese un numero: "))
 
-if edad >= 18:
-    print("eres mayor de edad")
+print("elija una opcion y luego escribala")
+print("suma")
+print("resta")
+print("multiplicacion")
+print("division")
 
-else:
-    print("No eres mayor de edad")
+operacion = input("elija una operacion: ")
+
+match operacion:
+
+    case "suma":
+       print(num1 + num2)
+
+    case "resta":
+        print(num1 - num2)
+        
+    case "multiplicacion":
+        print(num1 * num2)
+
+    case "division":
+        print(num1 / num2)

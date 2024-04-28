@@ -1,8 +1,10 @@
-print ("Salario por hora")
+print("Verificación de divisibilidad")
 
-salary = float(input("Ingrese su salario por hora: $"))
-hours = int(input("Ingrese horas trabajadas: "))
+num1 = int(input("Ingrese su primer numero: "))
+num2 = int(input("Ingrese su segundo numero: "))
 
-total = salary * hours
+if num1 % num2:
+    print("El primer número es divisible por el segundo")
 
-print("Su total seria de: $",total)
+else:
+    print("El primer número no es divisible por el segundo")

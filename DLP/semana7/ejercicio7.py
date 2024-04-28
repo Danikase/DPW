@@ -1,18 +1,30 @@
-print("Determinación de la estación del año")
+print("Determinacion del dia de la semana")
 
-mes = int(input("Ingrese un numero del 1-12 que corresponde a cada mes: "))
+print("Suponiendo que cada numero es igual a cada de dia de la semana ejemplo: 1 es lunes")
+day = int(input("Elija un numero del 1 al 7 que corresponde a cada dia de la semana: "))
 
-if mes in [12,1,2]:
-    print("La estacion es invierno")
+match day:
 
-elif mes in [3, 4, 5]:
-    print("La estación es primavera.")
+    case day if day == 1:
+        print("El dia seleccionado es Lunes")
 
-elif mes in [6, 7, 8]:
-    print("La estación es verano.")
+    case day if day == 2:
+        print("El dia seleccionado es Martes")
 
-elif mes in [9, 10, 11]:
-    print("La estación es otoño.")
+    case day if day == 3:
+        print("El dia seleccionado es Miercoles")
 
-else:
-    print("Número de mes inválido. Debe ser un número del 1 al 12.")
+    case day if day == 4:
+        print("El dia seleccionado es Jueves")
+
+    case day if day == 5:
+        print("El dia seleccionado es Viernes")
+
+    case day if day == 6:
+        print("El dia seleccionado es Sabado")
+
+    case day if day == 7:
+        print("El dia seleccionado es Domingo")
+
+    case _:
+        print("El numero ingresado no es valido")

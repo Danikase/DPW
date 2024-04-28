@@ -1,26 +1,20 @@
-dia = int(input("Ingrese el día: "))
-mes = int(input("Ingrese el mes: "))
-año = int(input("Ingrese el año: "))
+print("Determinacion de figuras geometricas")
 
-fecha_valida = True
+lados = int(input("Ingrese el numero de lados de la figuera que desea saber: "))
 
-if mes < 1 or mes > 12:
-    fecha_valida = False
-elif mes in (1, 3, 5, 7, 8, 10, 12):
-    if dia < 1 or dia > 31:
-        fecha_valida = False
-elif mes in (4, 6, 9, 11):
-    if dia < 1 or dia > 30:
-        fecha_valida = False
-elif mes == 2:
-    if año % 4 == 0 and (año % 100 != 0 or año % 400 == 0):
-        if dia < 1 or dia > 29:
-            fecha_valida = False
-    elif dia < 1 or dia > 28:
-        fecha_valida = False
+match lados:
 
+    case lados if lados == 3:
+        print("Su figura puede ser un triangulo")
 
-if fecha_valida:
-    print("La fecha ingresada es válida.")
-else:
-    print("La fecha ingresada no es válida.")
+    case lados if lados == 4:
+        print("Su figura puede ser un cuadrado o un rectangulo")
+
+    case lados if lados == 5:
+        print("Su figura es un pentagono")
+
+    case lados if lados == 6:
+        print("Su figura es un Hexagono")
+
+    case lados if lados == 8:
+        print("Su figura es un octagono")

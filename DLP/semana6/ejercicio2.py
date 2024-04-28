@@ -1,6 +1,10 @@
-print("Uso de cadenas de texto y operadores de concatenación")
+print("Comparacion de numero")
 
-name = str(input("Por favor ingrese su nombre: "))
-city = str(input("Por favor ingrese su ciudad de origen: "))
+num1 = int(input("Ingrese su primer numero: "))
+num2 = int(input("Ingrese su segundo numero: "))
 
-print(f"Bienvenido {name} de {city} espero que todo sea de su agrado")
+if num1>num2:
+    print("El primer número es mayor")
+
+else:
+    print("El segundo número es mayor")

@@ -1,9 +1,11 @@
-print("Determinación de la paridad de un número")
+print("Determinacion de paridad")
 
-num1 = int(input("Ingrese un numero: "))
+num = int(input("Ingrese un numero: "))
 
-if num1 % 2 == 0:
-    print("El número es par")
+match num:
 
-else:
-    print("El número es impar")
+    case num if num % 2 == 0:
+        print("El número es par")
+    
+    case _:
+        print("El numero es impar")

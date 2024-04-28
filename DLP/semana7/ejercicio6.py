@@ -1,14 +1,14 @@
-print("Determinación del tipo de triángulo")
+print("Determinacion del tipo de numero ")
 
-lado1 = int(input("Ingrese la longitud del primer lado: "))
-lado2 = int(input("Ingrese la longitud del segundo lado: "))
-lado3 = int(input("Ingrese la longitud del tercer lado: "))
+num = int(input("Ingrese un numero puede ser positivo o negativo: "))
 
-if lado1 == lado2 == lado3:
-    print("El triángulo es equilátero.")
+match num:
 
-elif lado1 == lado2 or lado1 == lado3 or lado2 == lado3:
-    print("El triángulo es isósceles.")
-    
-else:
-    print("El triángulo es escaleno.")
+    case num if num > 0:
+        print("Su numero es postivo")
+
+    case num if num < 0:
+        print("Su numero es negativo")
+
+    case _:
+        print("Su numero es igual a cero")
