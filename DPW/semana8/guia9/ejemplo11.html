@@ -1,0 +1,26 @@
+<html>
+
+<head>
+</head>
+
+<body>
+    <script>
+        function contarSeleccionados() {
+            var cant = 0;
+            if (document.form1.lenguaje1.checked) cant++;
+            if (document.form1.lenguaje2.checked) cant++;
+            if (document.form1.lenguaje3.checked) cant++;
+            if (document.form1.lenguaje4.checked) cant++;
+            alert('Conoce ' + cant + ' lenguajes');
+        }
+    </script>
+    <form name="form1">
+        <input type="checkbox" name="lenguaje1">JavaScript<br>
+        <input type="checkbox" name="lenguaje2">PHP<br>
+        <input type="checkbox" name="lenguaje3">JSP<br>
+        <input type="checkbox" name="lenguaje4">VB.Net<br>
+        <input type="button" value="Mostrar" onClick="contarSeleccionados()">
+    </form>
+</body>
+
+</html>

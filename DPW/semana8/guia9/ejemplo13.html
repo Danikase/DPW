@@ -1,0 +1,23 @@
+<html>
+
+<head>
+</head>
+
+<body>
+    <script>
+        function controlarCaracteres() {
+            if (document.form1.direccion.value.length > 60) {
+                alert('La direcciòn parece ser muy larga');
+            }
+            else {
+                alert('no ha completado la información');
+            }
+        }
+    </script>
+    <form name="form1">
+        <textarea name=direccion rows="3" cols="50"></textarea>;<br>
+        <input type="button" value="Mostrar" onClick="controlarCaracteres()">
+    </form>
+</body>
+
+</html>

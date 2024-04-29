@@ -1,0 +1,33 @@
+<html>
+
+<body>
+    <script>
+        function cambiarColor() {
+            let text1 = document.form1.text1;
+            let text2 = document.form1.text2;
+            let text3 = document.form1.text3;
+            let select1 = document.form1.select1;
+            text1.value = select1.selectedIndex;
+            text2.value = select1.options[select1.selectedIndex].text;
+            text3.value = select1.options[select1.selectedIndex].value;
+        }
+    </script>
+    <form name="form1">
+        <select size="1" name="select1" ONCHANGE="cambiarColor()">
+            <option value="0x000000">[Seleccione un color]</option>
+            <option value="0xff0000">Rojo</option>
+            <option value="0x00ff00">Verde</option>
+            <option value="0x0000ff">Azul</option>
+        </select>
+        </p>
+        <br>
+        Número de índice seleccionado del objeto SELECT:
+        <input type="text" name="text1"><br>
+        Texto seleccionado :
+        <input type="text" name="text2"><br>
+        Valor asociado :
+        <input type="text" name="text3"><br>
+    </form>
+</body>
+        
+</html>
