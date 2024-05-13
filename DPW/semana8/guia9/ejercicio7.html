@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Matrículas</title>
+    <script src="ejercicio7.js" defer></script>
+</head>
+<body>
+    <h1>Registro de Matrículas</h1>
+    <form id="matriculaForm">
+        <label for="certificado">Certificado de Notas Año Anterior:</label>
+        <input type="file" id="certificado" name="certificado"><br><br>
+
+        <label for="comprobante">Comprobante de Pago de Matrícula:</label>
+        <input type="file" id="comprobante" name="comprobante"><br><br>
+
+        <label for="pagoMatricula">Pago de Matrícula:</label>
+        <input type="checkbox" id="pagoMatricula" name="pagoMatricula"><br><br>
+
+        <label for="conducta">Constancia de Buena Conducta:</label>
+        <input type="checkbox" id="conducta" name="conducta"><br><br>
+
+        <button type="button" id="registrarBtn">Matricular</button>
+    </form>
+
+    <div id="mensajeError" style="color: red; display: none;">Por favor complete todos los campos requeridos.</div>
+    <div id="mensajePago" style="color: red; display: none;">Debe marcar el checkbox de Pago de Matrícula.</div>
+    <div id="mensajeDocumentos" style="color: red; display: none;">Debe adjuntar al menos uno de los documentos.</div>
+
+</body>
+</html>

@@ -1,7 +1,7 @@
 function generarTabla() {
 
     var numero = parseInt(document.getElementById("numero").value);
-    
+
     var tablaResultado = document.getElementById("tablaResultado");
 
     tablaResultado.innerHTML = "";
