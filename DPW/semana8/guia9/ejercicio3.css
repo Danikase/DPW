@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#candidatos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.candidato {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.barra {
+    background-color: blue;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0;
+}
