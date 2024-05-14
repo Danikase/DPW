@@ -1,0 +1,94 @@
+<html>
+
+<head>
+    <title>Documento sin t&iacute;tulo</title>
+    <script>
+        function calcular() {
+            var d1 = parseInt(document.getElementById('t1').value);
+            var d2 = parseInt(document.getElementById('t2').value);
+            var operacion = document.querySelector('input[name="operacion"]:checked').value;
+            var resultado;
+
+            switch (operacion) {
+                case 'Suma':
+                    resultado = d1 + d2;
+                    break;
+                case 'Resta':
+                    resultado = d1 - d2;
+                    break;
+                case 'Multiplicacion':
+                    resultado = d1 * d2;
+                    break;
+                case 'Division':
+                    resultado = d1 / d2;
+                    break;
+                default:
+                    resultado = "Seleccione una operación";
+            }
+
+            document.getElementById("result").value = resultado;
+        }
+    </script>
+</head>
+
+<body>
+    <form name="f1" method="post" action="">
+        <table border="1">
+            <tr bgcolor="#999999">
+                <td colspan="4" align="center">
+                    <font color="white">
+                        <strong>
+                            OPERACIONES BASICAS
+                        </strong>
+                    </font>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" id="suma" name="operacion" value="Suma">
+                    <label for="suma">Suma</label>
+                </td>
+                <td>
+                    <input type="radio" id="resta" name="operacion" value="Resta">
+                    <label for="resta">Resta</label>
+                </td>
+                <td>
+                    <input type="radio" id="multi" name="operacion" value="Multiplicacion">
+                    <label for="multi">Multiplicación</label>
+                </td>
+                <td>
+                    <input type="radio" id="divi" name="operacion" value="Division">
+                    <label for="divi">División</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Ingrese el valor 1: </td>
+                <td><input type="text" id="t1"></td>
+                <td align="center" colspan="3">
+                    <input type="button" value="Ver resultado" onClick="calcular()">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Ingrese el valor 2: </td>
+                <td><input type="text" id="t2"></td>
+                <td align="center" colspan="3">
+                    <input type="button" value="Borrar datos"
+                        onclick="document.getElementById('t1').value='';document.getElementById('t2').value='';document.getElementById('result').value='';">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    El resultado de la operación:
+                </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="4" style="background-color: limegreen;">
+                    <input style="background-color: limegreen;" type="text" id="result">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
