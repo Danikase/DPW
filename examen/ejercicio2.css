@@ -1,0 +1,35 @@
+.table1{
+    background-color: #ACFA58;
+    color: #000000;
+    border: solid;
+    border-color: black;
+    width: 450px;
+}
+
+.th1{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.table2 {
+    background-color: #FE2E9A;
+    color: #000000;
+    border: solid;
+    border-color: black;
+    width: 450px;
+}
+
+.th2 {
+    background-color: #ACFA58;
+    color: #FFFFFF;
+}
+
+.name{
+    background-color: #FAAC58;
+    border-color: #82FA58;
+}
+
+.lname {
+    background-color: #FAAC58;
+    border-color: #82FA58;
+}
