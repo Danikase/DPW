@@ -1,6 +1,6 @@
 import re
 
-file_Name = 'users.txt'  # Asegúrate de que la ruta del archivo sea correcta
+file_Name = './DLP/proyecto/users.txt'  # Asegúrate de que la ruta del archivo sea correcta
 
 # Función para validar que el correo termine en '@itca.edu.sv'
 def validar_correo(correo):
@@ -204,3 +204,4 @@ while True:
         break
     else:
         print("Opción inválida. Por favor, seleccione una opción válida.")
+# Codigo chido
