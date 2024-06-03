@@ -1,1 +1,5 @@
 christopher.castaneda24@itca.edu.sv:048924:Daniel546#1
+<<<<<<< HEAD
+=======
+francisco.gonzales24@itca.edu.sv:052124:monalisanicehunts24
+>>>>>>> bb709ec25ad5dcbc438c1bbcc55646b41f010661
