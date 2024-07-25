@@ -1,0 +1,11 @@
+C:\Users\Claudia Figueroa\Documents\Itca\C\Guia1\Guia1\bin\Debug\Guia1.exe.config
+C:\Users\Claudia Figueroa\Documents\Itca\C\Guia1\Guia1\bin\Debug\Guia1.exe
+C:\Users\Claudia Figueroa\Documents\Itca\C\Guia1\Guia1\bin\Debug\Guia1.pdb
+C:\Users\Claudia Figueroa\Documents\Itca\C\Guia1\Guia1\obj\Debug\Guia1.csproj.AssemblyReference.cache
+C:\Users\Claudia Figueroa\Documents\Itca\C\Guia1\Guia1\obj\Debug\Guia1.Form1.resources
+C:\Users\Claudia Figueroa\Documents\Itca\C\Guia1\Guia1\obj\Debug\Guia1.Properties.Resources.resources
+C:\Users\Claudia Figueroa\Documents\Itca\C\Guia1\Guia1\obj\Debug\Guia1.csproj.GenerateResource.cache
+C:\Users\Claudia Figueroa\Documents\Itca\C\Guia1\Guia1\obj\Debug\Guia1.csproj.CoreCompileInputs.cache
+C:\Users\Claudia Figueroa\Documents\Itca\C\Guia1\Guia1\obj\Debug\Guia1.exe
+C:\Users\Claudia Figueroa\Documents\Itca\C\Guia1\Guia1\obj\Debug\Guia1.pdb
+C:\Users\Claudia Figueroa\Documents\Itca\C\Guia1\Guia1\obj\Debug\Guia1.Form2.resources

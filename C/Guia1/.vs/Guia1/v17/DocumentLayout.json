@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Claudia Figueroa\\Documents\\Itca\\C\\Guia1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68F8D757-C53E-4E26-A2DF-58A003B8EE77}|Guia1\\Guia1.csproj|c:\\users\\claudia figueroa\\documents\\itca\\c\\guia1\\guia1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{68F8D757-C53E-4E26-A2DF-58A003B8EE77}|Guia1\\Guia1.csproj|solutionrelative:guia1\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F8D757-C53E-4E26-A2DF-58A003B8EE77}|Guia1\\Guia1.csproj|c:\\users\\claudia figueroa\\documents\\itca\\c\\guia1\\guia1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{68F8D757-C53E-4E26-A2DF-58A003B8EE77}|Guia1\\Guia1.csproj|solutionrelative:guia1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F8D757-C53E-4E26-A2DF-58A003B8EE77}|Guia1\\Guia1.csproj|c:\\users\\claudia figueroa\\documents\\itca\\c\\guia1\\guia1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F8D757-C53E-4E26-A2DF-58A003B8EE77}|Guia1\\Guia1.csproj|solutionrelative:guia1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Claudia Figueroa\\Documents\\Itca\\C\\Guia1\\Guia1\\Program.cs",
+              "RelativeDocumentMoniker": "Guia1\\Program.cs",
+              "ToolTip": "C:\\Users\\Claudia Figueroa\\Documents\\Itca\\C\\Guia1\\Guia1\\Program.cs",
+              "RelativeToolTip": "Guia1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T21:25:29.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Claudia Figueroa\\Documents\\Itca\\C\\Guia1\\Guia1\\Form3.cs",
+              "RelativeDocumentMoniker": "Guia1\\Form3.cs",
+              "ToolTip": "C:\\Users\\Claudia Figueroa\\Documents\\Itca\\C\\Guia1\\Guia1\\Form3.cs [Design]",
+              "RelativeToolTip": "Guia1\\Form3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T21:45:57.874Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Claudia Figueroa\\Documents\\Itca\\C\\Guia1\\Guia1\\Form1.cs",
+              "RelativeDocumentMoniker": "Guia1\\Form1.cs",
+              "ToolTip": "C:\\Users\\Claudia Figueroa\\Documents\\Itca\\C\\Guia1\\Guia1\\Form1.cs [Design]",
+              "RelativeToolTip": "Guia1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T21:52:39.893Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
