@@ -3,27 +3,27 @@ from validations import validar_correo, validar_carnet, validar_contraseña
 from menu import mostrar_menu_principal, mostrar_menu_usuario, print_centered, input_centered, clear_screen
 import os
 
-FILE_NAME = 'users.txt'  # The file where user data is stored
+FILE_NAME = 'users.txt'  # archivo para guardar los datos del usuario
 
-# Global variables to store logged-in user's email and carnet
+# Variables globales para almacenar el correo electrónico y el carnet del usuario que ha iniciado sesión.
 global correo, carnet
 correo = ""
 carnet = ""
 
-# Function to load users from the file
+# Función para cargar usuarios desde el archivo
 def cargar_usuarios(file_name):
     if not os.path.exists(file_name):
         return []
     with open(file_name, 'r') as file:
         return [line.strip().split(":") for line in file]
 
-# Function to save users to the file
+# Función para guardar usuarios en el archivo
 def guardar_usuarios(file_name, usuarios):
     with open(file_name, 'w') as file:
         for usuario in usuarios:
             file.write(":".join(usuario) + "\n")
 
-# Function to register a new user
+# Funcion para registrar un nuevo usuario
 def registrar_usuario():
     global correo, carnet
     clear_screen()
@@ -51,7 +51,7 @@ def registrar_usuario():
         guardar_usuarios(FILE_NAME, usuarios)
         print_centered("Usuario registrado exitosamente.")
 
-# Function to log in a user
+# Funcion para logear un usuario
 def iniciar_sesion():
     global correo, carnet
     clear_screen()
@@ -67,19 +67,27 @@ def iniciar_sesion():
             return
     print_centered("Carnet o contraseña incorrectos.")
 
-# Function to recover a user's password
+# Funcion para recuperar la contraseña de un usuario
 def recuperar_contraseña():
     clear_screen()
     usuarios = cargar_usuarios(FILE_NAME)
     carnet = input_centered("Ingrese su número de carnet estudiantil: ")
 
-    for usuario in usuarios:
+    for i, usuario in enumerate(usuarios):
         if usuario[1] == carnet:
             print_centered(f"Su contraseña es: {usuario[2]}")
+            nueva_contraseña = input_centered("Ingrese su nueva contraseña: ")
+            while not validar_contraseña(nueva_contraseña):
+                print_centered("Contraseña inválida. Debe tener al menos 8 caracteres, sin espacios, y contener al menos una letra y un número.")
+                nueva_contraseña = input_centered("Ingrese su nueva contraseña: ")
+            usuario[2] = nueva_contraseña
+            guardar_usuarios(FILE_NAME, usuarios)
+            print_centered("Contraseña cambiada exitosamente.")
             return
     print_centered("Número de carnet no encontrado.")
 
-# Main function to display the main menu and handle user input
+
+# Función principal para mostrar el menú principal y manejar la entrada del usuario
 def main():
     while True:
         opcion = mostrar_menu_principal()

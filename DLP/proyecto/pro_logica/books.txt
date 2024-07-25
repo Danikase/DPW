@@ -1,0 +1,50 @@
+0001:Harry Potter y la piedra filosofal - J.K. Rowling:available
+0002:Cien años de soledad - Gabriel García Márquez:available
+0003:El principito - Antoine de Saint-Exupéry:available
+0004:Don Quijote de la Mancha - Miguel de Cervantes:available
+0005:Orgullo y prejuicio - Jane Austen:available
+0006:Matar a un ruiseñor - Harper Lee:available
+0007:1984 - George Orwell:available
+0008:Crimen y castigo - Fiódor Dostoyevski:available
+0009:El Gran Gatsby - F. Scott Fitzgerald:available
+0010:La Odisea - Homero:available
+0011:En busca del tiempo perdido - Marcel Proust:available
+0012:Ulises - James Joyce:available
+0013:Guerra y paz - León Tolstói:available
+0014:Madame Bovary - Gustave Flaubert:available
+0015:La Divina Comedia - Dante Alighieri:available
+0016:Anna Karenina - León Tolstói:available
+0017:El Señor de los Anillos - J.R.R. Tolkien:available
+0018:Alicia en el País de las Maravillas - Lewis Carro:availablell
+0019:Las mil y una noches - Anónimo:available
+0020:Los Miserables - Victor Hugo:available
+0021:El retrato de Dorian Gray - Oscar Wilde:available
+0022:Drácula - Bram Stoker:available
+0023:El Hobbit - J.R.R. Tolkien:available
+0024:La Metamorfosis - Franz Kafka:available
+0025:Ficciones - Jorge Luis Borges:available
+0026:El amor en los tiempos del cólera - Gabriel Garcí:availablea Márquez
+0027:La Casa de los Espíritus - Isabel Allende:available
+0028:El guardián entre el centeno - J.D. Salinger:available
+0029:La sombra del viento - Carlos Ruiz Zafón:available
+0030:Rayuela - Julio Cortázar:available
+0031:Cumbres Borrascosas - Emily Brontë:available
+0032:El perfume - Patrick Süskind:available
+0033:La insoportable levedad del ser - Milan Kundera:available
+0034:Ensayo sobre la ceguera - José Saramago:available
+0035:Fahrenheit 451 - Ray Bradbury:available
+0036:El Alquimista - Paulo Coelho:available
+0037:Moby Dick - Herman Melville:available
+0038:La Iliada - Homero:available
+0039:El viejo y el mar - Ernest Hemingway:available
+0040:Rebelión en la granja - George Orwell:available
+0041:El código Da Vinci - Dan Brown:available
+0042:El nombre de la rosa - Umberto Eco:available
+0043:1000 soles espléndidos - Khaled Hosseini:available
+0044:La chica del tren - Paula Hawkins:available
+0045:Cometas en el cielo - Khaled Hosseini:available
+0046:Un mundo feliz - Aldous Huxley:available
+0047:El león, la bruja y el armario - C.S. Lewis:available
+0048:La carretera - Cormac McCarthy:available
+0049:El juego de Ender - Orson Scott Card:available
+0050:La historia interminable - Michael Ende:available

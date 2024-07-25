@@ -2,15 +2,15 @@
 
 import re
 
-# Function to validate email
+# Función para validar correo electrónico
 def validar_correo(correo):
     return correo.endswith("@itca.edu.sv")
 
-# Function to validate student ID (carnet)
+# Función para validar carné de estudiante
 def validar_carnet(carnet):
     return carnet.isdigit() and len(carnet) == 6
 
-# Function to validate password
+# Función para validar contraseña
 def validar_contraseña(contraseña):
     if len(contraseña) < 8 or " " in contraseña:
         return False
